@@ -21,6 +21,7 @@ background = pygame.image.load('castle.jpg')
 # background music (-1 indicates it will loop)
 mixer.music.load('background.wav')
 mixer.music.play(-1)
+mixer.music.set_volume(0.3)
 
 #player values
 playerImg = pygame.image.load('wizard.png')
