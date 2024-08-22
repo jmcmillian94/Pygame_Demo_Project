@@ -128,6 +128,7 @@ while running:
 
     #adds movement values to players x axis
     playerX += playerX_change
+    playerY += playerY_change
 
     #defines boundries for player
     if playerX <=0:
